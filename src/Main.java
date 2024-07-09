@@ -25,14 +25,14 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за неделю составила " + minPayment + " рублей");
 
-        double averageSpending = sum / payments.length;
+        double averageSpending = sum / (double) payments.length;
         System.out.println("Средняя сумма трат за месяц составила " + averageSpending + " рублей");
 
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
             if (i > 0) {
-                System.out.print(" ");
+                System.out.print("");
 
             }
 
